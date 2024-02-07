@@ -2,8 +2,10 @@
   "name": "locationapp",
   "version": "1.0.0",
   "description": "",
+  "default": "index.html",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Jakub Cyndrowski",
   "license": "ISC",
